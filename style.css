@@ -7,7 +7,10 @@ body {
 }
 
 #wrapper {
-    width: auto;height: 800px;
+    width: auto;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: lightslategray;
 }
 
@@ -18,13 +21,16 @@ body {
 }
 
 footer {
-    width: auto;height: 50px;
-    background-color: #312e2e;
-    color: black;
+    float: left;
+    background: -webkit-linear-gradient(top, lightblue 0%, teal 100%);
     position: fixed;
+    margin-top: 47%;
+    width: 100%;
+    color: white;
 }
 
 ul {
+    text-align: left;
     position: fixed;
     top: 0;
     width: 100%;
@@ -52,6 +58,10 @@ li a:hover {
     color: white;
 }
 
+#feedbackForm {
+    margin-top: 3%;
+}
+
 input {
     position: relative;
     margin-right: 30px;
@@ -65,5 +75,5 @@ input {
 textarea {
     background-color: #4d4c4c;
     color: aliceblue;
-    padding: 200px 150px;
+    padding: 150px 150px;
 }
